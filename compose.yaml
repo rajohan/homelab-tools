@@ -1,0 +1,7 @@
+name: homelab-tools
+include:
+  - apps/it-tools/compose.yaml
+  - apps/openspeedtest/compose.yaml
+  - apps/shlink/compose.yaml
+  - apps/shlink-web/compose.yaml
+  - apps/valkey-shlink/compose.yaml

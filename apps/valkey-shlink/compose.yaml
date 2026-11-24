@@ -1,0 +1,8 @@
+services:
+  valkey-shlink:
+    image: docker.io/valkey/valkey:latest@sha256:1c2b25b09f354c66fe994733acdf12fcfd4bdf6f3bd92b88a93a70378d884056
+    restart: unless-stopped
+    mem_limit: '128m'
+    pids_limit: 64
+    security_opt:
+      - no-new-privileges:true

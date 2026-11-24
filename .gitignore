@@ -1,0 +1,7 @@
+.env
+.env.*
+!.env.example
+compose.override.y*ml
+compose.private.y*ml
+*.pem
+*.key
