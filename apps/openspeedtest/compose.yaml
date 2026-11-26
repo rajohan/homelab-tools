@@ -1,6 +1,6 @@
 services:
   openspeedtest:
-    image: docker.io/openspeedtest/latest:latest@sha256:ba63bc8396e5ea334b58b96d925cd173957649935abb88efc9d8ada112cc45f8
+    image: docker.io/openspeedtest/latest:v2.0.9@sha256:ba63bc8396e5ea334b58b96d925cd173957649935abb88efc9d8ada112cc45f8
     restart: unless-stopped
     mem_limit: '512m'
     pids_limit: 128
